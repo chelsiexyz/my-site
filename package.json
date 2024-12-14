@@ -10,7 +10,8 @@
 		"format": "prettier --write .",
 		"lint": "prettier --check .",
 		"test:e2e": "playwright test",
-		"test": "npm run test:e2e"
+		"test": "npm run test:e2e",
+		"v": "node -v"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.45.3",
